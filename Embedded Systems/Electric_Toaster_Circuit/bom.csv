@@ -1,0 +1,10 @@
+﻿Name,Quantity,Component
+U1,1, Arduino Uno R3
+DToaster ON/OFF,1,Green LED
+R1,1,10 kΩ Resistor
+DLEVER ON/OFF,1,Yellow LED
+"R2, R4, R5, R6, R7, R8, R9, R10, R11, R12, R3",11,1 kΩ Resistor
+"SToaster ON/OFF, SLEVER ON/OFF",2, Pushbutton
+"D1, D2, D3, D4, D5, D6, DSmokeDetectorLED",7,Red LED
+"Rpot1, RpotSmokeDetector_POT2",2,250 kΩ Potentiometer
+PIEZOSmokeDetector_Buzzer,1, Piezo
