@@ -1,0 +1,459 @@
+HIEROBJ  EWORLD                                             NONE                
+ROOT                                                                            
+1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 
+HIEROBJ  EHIEROBJECT1                                       NONE                
+BODYNCBF  WORLD                                   BODY1                         
+1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 
+HIEROBJ  EHIEROBJECT2                                       NONE                
+CGTRIAD   HIEROBJECT1                                                           
+-1.682454652578E-02 9.9983860863492E-01 6.3001045384148E-03 0.000000000000E+00  
+3.5067782300157E-01 -2.838649459904E-08 9.3649616360927E-01 0.000000000000E+00  
+9.3634502139387E-01 1.7965430220073E-02 -3.506212261514E-01 0.000000000000E+00  
+2.8297031935000E+02 -2.445233896000E+01 8.2070232000000E-01 1.0000000000000E+00 
+HIEROBJ  EHIEROBJECT3                                       NONE                
+BODYNCBF  WORLD                                   BODY2                         
+1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 
+HIEROBJ  EHIEROBJECT4                                       NONE                
+CGTRIAD   HIEROBJECT3                                                           
+1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  
+0.000000000000E+00  -1.000000000000E+00 0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  -1.000000000000E+01 0.000000000000E+00  1.0000000000000E+00 
+HIEROBJ  EHIEROBJECT5                                       NONE                
+BODYNCBF  WORLD                                   BODY3                         
+1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 
+HIEROBJ  EHIEROBJECT6                                       NONE                
+CGTRIAD   HIEROBJECT5                                                           
+0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  
+9.3649616378964E-01 0.000000000000E+00  -3.506778225199E-01 0.000000000000E+00  
+-3.506778225199E-01 0.000000000000E+00  -9.364961637896E-01 0.000000000000E+00  
+2.6488111519000E+02 -1.500000000000E+01 -9.918666653000E+01 1.0000000000000E+00 
+HIEROBJ  EHIEROBJECT7                                       NONE                
+BODYNCBF  WORLD                                   BODY4                         
+1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 
+HIEROBJ  EHIEROBJECT8                                       NONE                
+CGTRIAD   HIEROBJECT7                                                           
+1.2204551205557E-03 9.9999873087040E-01 -1.024083440467E-03 0.000000000000E+00  
+6.4278760968868E-01 -8.160389529234E-13 7.6604444311718E-01 0.000000000000E+00  
+7.6604347090750E-01 -1.593191009995E-03 -6.427867939079E-01 0.000000000000E+00  
+1.1730071128000E+02 -5.104173450000E+00 -9.842698357000E+01 1.0000000000000E+00 
+HIEROBJ  EHIEROBJECT9                                       NONE                
+BODYNCBF  WORLD                                   BODY5                         
+1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 
+HIEROBJ  EHIEROBJECT10                                      NONE                
+CGTRIAD   HIEROBJECT9                                                           
+1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 
+HIEROBJ  EHIEROBJECT11                                      NONE                
+JFCTRIAD  HIEROBJECT1                                                           
+-1.682454652578E-02 9.9983860863492E-01 6.3001045384144E-03 0.000000000000E+00  
+3.5067782300157E-01 -2.838649413531E-08 9.3649616360927E-01 0.000000000000E+00  
+9.3634502139387E-01 1.7965430220073E-02 -3.506212261514E-01 0.000000000000E+00  
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 
+HIEROBJ  EHIEROBJECT12                                      NONE                
+JFCTRIAD  HIEROBJECT1                                                           
+-1.682454652578E-02 9.9983860863492E-01 6.3001045384144E-03 0.000000000000E+00  
+3.5067782300157E-01 -2.838649413531E-08 9.3649616360927E-01 0.000000000000E+00  
+9.3634502139387E-01 1.7965430220073E-02 -3.506212261514E-01 0.000000000000E+00  
+2.8297031935000E+02 -2.445233896000E+01 8.2070232000000E-01 1.0000000000000E+00 
+HIEROBJ  EHIEROBJECT13                                      NONE                
+JFCTRIAD  HIEROBJECT1                                                           
+4.4408920985006E-16 4.4408920985006E-16 1.0000000000000E+00 0.000000000000E+00  
+-1.000000000000E+00 0.000000000000E+00  4.4408920985006E-16 0.000000000000E+00  
+0.000000000000E+00  -1.000000000000E+00 4.4408920985006E-16 0.000000000000E+00  
+2.9994889744031E+02 -2.000000000000E+01 -5.537050148272E+00 1.0000000000000E+00 
+HIEROBJ  EHIEROBJECT14                                      NONE                
+JFCTRIAD  HIEROBJECT1                                                           
+7.0710678118655E-01 0.000000000000E+00  7.0710678118655E-01 0.000000000000E+00  
+0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  
+-7.071067811865E-01 0.000000000000E+00  7.0710678118655E-01 0.000000000000E+00  
+2.5577450247571E+02 -2.500000000000E+01 -2.369945168309E+01 1.0000000000000E+00 
+HIEROBJ  EHIEROBJECT15                                      NONE                
+JFCTRIAD  HIEROBJECT3                                                           
+1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  2.2204460492503E-16 1.0000000000000E+00 0.000000000000E+00  
+0.000000000000E+00  -1.000000000000E+00 2.2204460492503E-16 0.000000000000E+00  
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 
+HIEROBJ  EHIEROBJECT16                                      NONE                
+JFCTRIAD  HIEROBJECT3                                                           
+1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  2.2204460492503E-16 1.0000000000000E+00 0.000000000000E+00  
+0.000000000000E+00  -1.000000000000E+00 2.2204460492503E-16 0.000000000000E+00  
+0.000000000000E+00  -1.000000000000E+01 0.000000000000E+00  1.0000000000000E+00 
+HIEROBJ  EHIEROBJECT17                                      NONE                
+JFCTRIAD  HIEROBJECT3                                                           
+4.4408920985006E-16 4.4408920985006E-16 1.0000000000000E+00 0.000000000000E+00  
+-1.000000000000E+00 0.000000000000E+00  4.4408920985006E-16 0.000000000000E+00  
+0.000000000000E+00  -1.000000000000E+00 4.4408920985006E-16 0.000000000000E+00  
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 
+HIEROBJ  EHIEROBJECT18                                      NONE                
+JFCTRIAD  HIEROBJECT3                                                           
+1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  
+0.000000000000E+00  -1.000000000000E+01 0.000000000000E+00  1.0000000000000E+00 
+HIEROBJ  EHIEROBJECT19                                      NONE                
+JFCTRIAD  HIEROBJECT5                                                           
+1.9844728195065E-16 1.0000000000000E+00 1.0351605988650E-16 0.000000000000E+00  
+9.3649616378964E-01 -1.495443317844E-16 -3.506778225199E-01 0.000000000000E+00  
+-3.506778225199E-01 1.6653345369377E-16 -9.364961637896E-01 0.000000000000E+00  
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 
+HIEROBJ  EHIEROBJECT20                                      NONE                
+JFCTRIAD  HIEROBJECT5                                                           
+1.9844728195065E-16 1.0000000000000E+00 1.0351605988650E-16 0.000000000000E+00  
+9.3649616378964E-01 -1.495443317844E-16 -3.506778225199E-01 0.000000000000E+00  
+-3.506778225199E-01 1.6653345369377E-16 -9.364961637896E-01 0.000000000000E+00  
+2.6488111519000E+02 -1.500000000000E+01 -9.918666653000E+01 1.0000000000000E+00 
+HIEROBJ  EHIEROBJECT21                                      NONE                
+JFCTRIAD  HIEROBJECT5                                                           
+4.4408920985006E-16 4.4408920985006E-16 -1.000000000000E+00 0.000000000000E+00  
+-1.000000000000E+00 0.000000000000E+00  -4.440892098501E-16 0.000000000000E+00  
+0.000000000000E+00  1.0000000000000E+00 4.4408920985006E-16 0.000000000000E+00  
+2.2981333293569E+02 -1.000000000000E+01 -1.928362829060E+02 1.0000000000000E+00 
+HIEROBJ  EHIEROBJECT22                                      NONE                
+JFCTRIAD  HIEROBJECT5                                                           
+4.4408920985006E-16 4.4408920985006E-16 1.0000000000000E+00 0.000000000000E+00  
+-1.000000000000E+00 0.000000000000E+00  4.4408920985006E-16 0.000000000000E+00  
+0.000000000000E+00  -1.000000000000E+00 4.4408920985006E-16 0.000000000000E+00  
+2.9994889744031E+02 -2.000000000000E+01 -5.537050148272E+00 1.0000000000000E+00 
+HIEROBJ  EHIEROBJECT23                                      NONE                
+JFCTRIAD  HIEROBJECT7                                                           
+1.2204551205558E-03 9.9999873087040E-01 -1.024083440467E-03 0.000000000000E+00  
+6.4278760968868E-01 -8.162078868681E-13 7.6604444311718E-01 0.000000000000E+00  
+7.6604347090750E-01 -1.593191009995E-03 -6.427867939079E-01 0.000000000000E+00  
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 
+HIEROBJ  EHIEROBJECT24                                      NONE                
+JFCTRIAD  HIEROBJECT7                                                           
+1.2204551205558E-03 9.9999873087040E-01 -1.024083440467E-03 0.000000000000E+00  
+6.4278760968868E-01 -8.162078868681E-13 7.6604444311718E-01 0.000000000000E+00  
+7.6604347090750E-01 -1.593191009995E-03 -6.427867939079E-01 0.000000000000E+00  
+1.1730071128000E+02 -5.104173450000E+00 -9.842698357000E+01 1.0000000000000E+00 
+HIEROBJ  EHIEROBJECT25                                      NONE                
+JFCTRIAD  HIEROBJECT7                                                           
+4.4408920985006E-16 4.4408920985006E-16 1.0000000000000E+00 0.000000000000E+00  
+-1.000000000000E+00 0.000000000000E+00  4.4408920985006E-16 0.000000000000E+00  
+0.000000000000E+00  -1.000000000000E+00 4.4408920985006E-16 0.000000000000E+00  
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 
+HIEROBJ  EHIEROBJECT26                                      NONE                
+JFCTRIAD  HIEROBJECT7                                                           
+4.4408920985006E-16 4.4408920985006E-16 -1.000000000000E+00 0.000000000000E+00  
+-1.000000000000E+00 0.000000000000E+00  -4.440892098501E-16 0.000000000000E+00  
+0.000000000000E+00  1.0000000000000E+00 4.4408920985006E-16 0.000000000000E+00  
+2.2981333293569E+02 -1.000000000000E+01 -1.928362829060E+02 1.0000000000000E+00 
+HIEROBJ  EHIEROBJECT27                                      NONE                
+JFCTRIAD  HIEROBJECT9                                                           
+1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  
+0.000000000000E+00  -1.000000000000E+01 0.000000000000E+00  1.0000000000000E+00 
+HIEROBJ  EHIEROBJECT28                                      NONE                
+JFCTRIAD  HIEROBJECT9                                                           
+7.0710678118655E-01 0.000000000000E+00  7.0710678118655E-01 0.000000000000E+00  
+0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  
+-7.071067811865E-01 0.000000000000E+00  7.0710678118655E-01 0.000000000000E+00  
+2.5577450247571E+02 -2.500000000000E+01 -2.369945168309E+01 1.0000000000000E+00 
+HIEROBJ  EHIEROBJECT29                                      NONE                
+JFCTRIAD  HIEROBJECT9                                                           
+1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 
+NAMEMAP   WORLD               5    5    UTF8 UTF8 ELEMENT                       
+WORLD                                                                           
+WORLD                                                                           
+NAMEMAP   HIEROBJECT1         32   32   UTF8 UTF8 ELEMENT                       
+2BAR_ACTUATOR/2BAR_ACTUATOR_NCBF                                                
+2BAR_ACTUATOR/2BAR_ACTUATOR_NCBF                                                
+NAMEMAP   HIEROBJECT2         30   30   UTF8 UTF8 ELEMENT                       
+2BAR_ACTUATOR/2BAR_ACTUATOR_cm                                                  
+2BAR_ACTUATOR/2BAR_ACTUATOR_cm                                                  
+NAMEMAP   HIEROBJECT3         24   24   UTF8 UTF8 ELEMENT                       
+2BAR_BASE/2BAR_BASE_NCBF                                                        
+2BAR_BASE/2BAR_BASE_NCBF                                                        
+NAMEMAP   HIEROBJECT4         22   22   UTF8 UTF8 ELEMENT                       
+2BAR_BASE/2BAR_BASE_cm                                                          
+2BAR_BASE/2BAR_BASE_cm                                                          
+NAMEMAP   HIEROBJECT5         30   30   UTF8 UTF8 ELEMENT                       
+2BAR_LINK_AB/2BAR_LINK_AB_NCBF                                                  
+2BAR_LINK_AB/2BAR_LINK_AB_NCBF                                                  
+NAMEMAP   HIEROBJECT6         28   28   UTF8 UTF8 ELEMENT                       
+2BAR_LINK_AB/2BAR_LINK_AB_cm                                                    
+2BAR_LINK_AB/2BAR_LINK_AB_cm                                                    
+NAMEMAP   HIEROBJECT7         30   30   UTF8 UTF8 ELEMENT                       
+2BAR_LINK_OA/2BAR_LINK_OA_NCBF                                                  
+2BAR_LINK_OA/2BAR_LINK_OA_NCBF                                                  
+NAMEMAP   HIEROBJECT8         28   28   UTF8 UTF8 ELEMENT                       
+2BAR_LINK_OA/2BAR_LINK_OA_cm                                                    
+2BAR_LINK_OA/2BAR_LINK_OA_cm                                                    
+NAMEMAP   HIEROBJECT9         26   26   UTF8 UTF8 ELEMENT                       
+the_ground/the_ground_NCBF                                                      
+the_ground/the_ground_NCBF                                                      
+NAMEMAP   HIEROBJECT10        13   13   UTF8 UTF8 ELEMENT                       
+the_ground_cm                                                                   
+the_ground_cm                                                                   
+NAMEMAP   HIEROBJECT11        31   31   UTF8 UTF8 ELEMENT                       
+2BAR_ACTUATOR/2BAR_ACTUATOR_coi                                                 
+2BAR_ACTUATOR/2BAR_ACTUATOR_coi                                                 
+NAMEMAP   HIEROBJECT12        31   31   UTF8 UTF8 ELEMENT                       
+2BAR_ACTUATOR/2BAR_ACTUATOR_com                                                 
+2BAR_ACTUATOR/2BAR_ACTUATOR_com                                                 
+NAMEMAP   HIEROBJECT13        6    20   UTF8 UTF8 ELEMENT                       
+39/106                                                                          
+2BAR_ACTUATOR/J003_i                                                            
+NAMEMAP   HIEROBJECT14        6    20   UTF8 UTF8 ELEMENT                       
+39/146                                                                          
+2BAR_ACTUATOR/J005_i                                                            
+NAMEMAP   HIEROBJECT15        23   23   UTF8 UTF8 ELEMENT                       
+2BAR_BASE/2BAR_BASE_coi                                                         
+2BAR_BASE/2BAR_BASE_coi                                                         
+NAMEMAP   HIEROBJECT16        23   23   UTF8 UTF8 ELEMENT                       
+2BAR_BASE/2BAR_BASE_com                                                         
+2BAR_BASE/2BAR_BASE_com                                                         
+NAMEMAP   HIEROBJECT17        5    16   UTF8 UTF8 ELEMENT                       
+15/61                                                                           
+2BAR_BASE/J001_j                                                                
+NAMEMAP   HIEROBJECT18        6    16   UTF8 UTF8 ELEMENT                       
+15/129                                                                          
+2BAR_BASE/J004_i                                                                
+NAMEMAP   HIEROBJECT19        29   29   UTF8 UTF8 ELEMENT                       
+2BAR_LINK_AB/2BAR_LINK_AB_coi                                                   
+2BAR_LINK_AB/2BAR_LINK_AB_coi                                                   
+NAMEMAP   HIEROBJECT20        29   29   UTF8 UTF8 ELEMENT                       
+2BAR_LINK_AB/2BAR_LINK_AB_com                                                   
+2BAR_LINK_AB/2BAR_LINK_AB_com                                                   
+NAMEMAP   HIEROBJECT21        5    19   UTF8 UTF8 ELEMENT                       
+27/84                                                                           
+2BAR_LINK_AB/J002_j                                                             
+NAMEMAP   HIEROBJECT22        6    19   UTF8 UTF8 ELEMENT                       
+27/107                                                                          
+2BAR_LINK_AB/J003_j                                                             
+NAMEMAP   HIEROBJECT23        29   29   UTF8 UTF8 ELEMENT                       
+2BAR_LINK_OA/2BAR_LINK_OA_coi                                                   
+2BAR_LINK_OA/2BAR_LINK_OA_coi                                                   
+NAMEMAP   HIEROBJECT24        29   29   UTF8 UTF8 ELEMENT                       
+2BAR_LINK_OA/2BAR_LINK_OA_com                                                   
+2BAR_LINK_OA/2BAR_LINK_OA_com                                                   
+NAMEMAP   HIEROBJECT25        4    19   UTF8 UTF8 ELEMENT                       
+3/60                                                                            
+2BAR_LINK_OA/J001_i                                                             
+NAMEMAP   HIEROBJECT26        4    19   UTF8 UTF8 ELEMENT                       
+3/83                                                                            
+2BAR_LINK_OA/J002_i                                                             
+NAMEMAP   HIEROBJECT27        5    17   UTF8 UTF8 ELEMENT                       
+2/130                                                                           
+the_ground/J004_j                                                               
+NAMEMAP   HIEROBJECT28        5    17   UTF8 UTF8 ELEMENT                       
+2/147                                                                           
+the_ground/J005_j                                                               
+NAMEMAP   HIEROBJECT29        1    14   UTF8 UTF8 ELEMENT                       
+1                                                                               
+the_ground/gnd                                                                  
+NAMEMAP   CURRENT_DIRECTORY   25   0    UTF8 UTF8 FILE                          
+H:\Desktop\task\2bar_task                                                       
+SYSTEM   GMILLIMETER          DYNAMIC             SPARSE    FULL_NCBF      TRUE 
+9.8066500000000E+03 0.000000000000E+00  0.000000000000E+00  -1.000000000000E+00 
+1.0000000000000E+00 0.000000000000E+00  2.1220000000000E-01 4.2440000000000E-03 
+1.0000000000000E-09 1.0000000000000E-03 NULL_FALSEBINARY_ONLFALSEKILOGNEWTO    1
+NONE                NONE                    1NONE                TRUE ITERAFALSE
+NONE                NONE                                                        
+NONE                                                                            
+HEADER                                                                          
+SET_IASIZE =    5000000;                                                        
+SET_DASIZE =    5000000;                                                        
+SDK_BUILD_INFO = R12.0.2P9_rc2 2018-06-20                                       
+END                                                                             
+DYNAMIC  ETRUE      INTERPOLATED        GLOBAL    BDF           1     BANDED    
+1.0000000000000E-02 1.0000000000000E-03 1.0000000000000E-03 1.0000000000000E-03 
+NONE                QR       1TRUE                                              
+PRELOAD  F          0.000000000000E+00      0                                   
+NONE                                                                            
+NONE                                                                            
+NCBF     EBODY1_REF           BODY1               PARAMETERSPOSITIVE            
+HIEROBJECT1                                                                     
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00                      
+BODY     EBODY1               POSITIVE  PARAMETERSFALSEFALSEFALSEFALSE          
+NONE                NONE                NONE                                    
+NONE                NONE                NONE                                    
+HIEROBJECT2                                                                     
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00                      
+2.5267240312000E-01 2.8387285000000E+02 1.4640523000000E+02 1.4420468000000E+02 
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00                      
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  FALSE               
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00                      
+NCBF     EBODY2_REF           BODY2               PARAMETERSPOSITIVE            
+HIEROBJECT3                                                                     
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00                      
+BODY     EBODY2               POSITIVE  PARAMETERSFALSEFALSEFALSEFALSE          
+NONE                NONE                NONE                                    
+NONE                NONE                NONE                                    
+HIEROBJECT4                                                                     
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00                      
+2.7675766230000E-02 1.3117200000000E+00 1.3117200000000E+00 7.7838000000000E-01 
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00                      
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  FALSE               
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00                      
+NCBF     EBODY3_REF           BODY3               PARAMETERSPOSITIVE            
+HIEROBJECT5                                                                     
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00                      
+BODY     EBODY3               POSITIVE  PARAMETERSFALSEFALSEFALSEFALSE          
+NONE                NONE                NONE                                    
+NONE                NONE                NONE                                    
+HIEROBJECT6                                                                     
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00                      
+9.0914249062000E-01 4.4076830600000E+03 4.2284860100000E+03 1.9434943000000E+02 
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00                      
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  FALSE               
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00                      
+NCBF     EBODY4_REF           BODY4               PARAMETERSPOSITIVE            
+HIEROBJECT7                                                                     
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00                      
+BODY     EBODY4               POSITIVE  PARAMETERSFALSEFALSEFALSEFALSE          
+NONE                NONE                NONE                                    
+NONE                NONE                NONE                                    
+HIEROBJECT8                                                                     
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00                      
+1.3283502568600E+00 1.3038170000000E+04 1.2781844980000E+04 2.8113818000000E+02 
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00                      
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  FALSE               
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00                      
+NCBF     EBODY5_REF           BODY5               PARAMETERSPOSITIVE            
+HIEROBJECT9                                                                     
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00                      
+BODY     EBODY5               POSITIVE  PARAMETERSTRUE FALSEFALSEFALSE          
+NONE                NONE                NONE                                    
+NONE                NONE                NONE                                    
+HIEROBJECT10                                                                    
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00                      
+1.0000000000000E+00 1.0000000000000E+06 1.0000000000000E+06 1.0000000000000E+06 
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00                      
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  FALSE               
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00                      
+REVOLUTE EREVOLUTE_JOINT1     BODY2               BODY4                         
+HIEROBJECT17                                                                    
+HIEROBJECT25                                                                    
+0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00                     
+0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00                     
+1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
+1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
+REVOLUTE EREVOLUTE_JOINT2     BODY3               BODY4                         
+HIEROBJECT21                                                                    
+HIEROBJECT26                                                                    
+0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00                     
+0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00                     
+1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
+1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
+REVOLUTE EREVOLUTE_JOINT3     BODY3               BODY1                         
+HIEROBJECT22                                                                    
+HIEROBJECT13                                                                    
+0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00                     
+0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00                     
+1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
+1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
+BRACKET  EBRACKET_JOINT1      BODY5               BODY2                         
+HIEROBJECT27                                                    0               
+HIEROBJECT18                                                                    
+0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00                     
+0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00                     
+1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
+1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
+TRANS    ETRANS_JOINT1        BODY5               BODY1                         
+HIEROBJECT28                                                                    
+HIEROBJECT14                                                                    
+0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00                     
+0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00                     
+1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
+1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
+DRIVER   GDRIVER_JOINT1       NONE                NONE                POSIT     
+REL.TRANS POLYNOMIAL          NONE                TRANS_JOINT1                  
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  NONE                
+0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  NONE                
+0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00                     
+0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  
+1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
+1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
+0.000000000000E+00  2.0000000000000E+03 0.000000000000E+00  0.000000000000E+00  
+NONE                                                        ACTIV               
+UNUSED                                                                          
+UNUSED                                                                          
+UNUSED                                                                          
+UNUSED                                                                          
+UNUSED                                                                          
+UNUSED                                                                          
+UNUSED                                                                          
+NAMEMAP   SYSTEM_DATA1        11   11   UTF8 UTF8 ELEMENT                       
+Mandatory:1                                                                     
+Mandatory:1                                                                     
+NAMEMAP   DYNAMIC_DATA1       11   11   UTF8 UTF8 ELEMENT                       
+Mandatory:2                                                                     
+Mandatory:2                                                                     
+NAMEMAP   PRELOAD_DATA1       11   11   UTF8 UTF8 ELEMENT                       
+Mandatory:5                                                                     
+Mandatory:5                                                                     
+NAMEMAP   BODY1               13   13   UTF8 UTF8 ELEMENT                       
+2BAR_ACTUATOR                                                                   
+2BAR_ACTUATOR                                                                   
+NAMEMAP   BODY1_REF           17   17   UTF8 UTF8 ELEMENT                       
+2BAR_ACTUATOR_REF                                                               
+2BAR_ACTUATOR_REF                                                               
+NAMEMAP   BODY2               9    9    UTF8 UTF8 ELEMENT                       
+2BAR_BASE                                                                       
+2BAR_BASE                                                                       
+NAMEMAP   BODY2_REF           13   13   UTF8 UTF8 ELEMENT                       
+2BAR_BASE_REF                                                                   
+2BAR_BASE_REF                                                                   
+NAMEMAP   BODY3               12   12   UTF8 UTF8 ELEMENT                       
+2BAR_LINK_AB                                                                    
+2BAR_LINK_AB                                                                    
+NAMEMAP   BODY3_REF           16   16   UTF8 UTF8 ELEMENT                       
+2BAR_LINK_AB_REF                                                                
+2BAR_LINK_AB_REF                                                                
+NAMEMAP   BODY4               12   12   UTF8 UTF8 ELEMENT                       
+2BAR_LINK_OA                                                                    
+2BAR_LINK_OA                                                                    
+NAMEMAP   BODY4_REF           16   16   UTF8 UTF8 ELEMENT                       
+2BAR_LINK_OA_REF                                                                
+2BAR_LINK_OA_REF                                                                
+NAMEMAP   BODY5               10   10   UTF8 UTF8 ELEMENT                       
+the_ground                                                                      
+the_ground                                                                      
+NAMEMAP   BODY5_REF           14   14   UTF8 UTF8 ELEMENT                       
+the_ground_REF                                                                  
+the_ground_REF                                                                  
+NAMEMAP   REVOLUTE_JOINT1     4    4    UTF8 UTF8 ELEMENT                       
+J001                                                                            
+J001                                                                            
+NAMEMAP   REVOLUTE_JOINT2     4    4    UTF8 UTF8 ELEMENT                       
+J002                                                                            
+J002                                                                            
+NAMEMAP   REVOLUTE_JOINT3     4    4    UTF8 UTF8 ELEMENT                       
+J003                                                                            
+J003                                                                            
+NAMEMAP   BRACKET_JOINT1      4    4    UTF8 UTF8 ELEMENT                       
+J004                                                                            
+J004                                                                            
+NAMEMAP   TRANS_JOINT1        4    4    UTF8 UTF8 ELEMENT                       
+J005                                                                            
+J005                                                                            
+NAMEMAP   DRIVER_JOINT1       14   14   UTF8 UTF8 ELEMENT                       
+MOTION_J005_TZ                                                                  
+MOTION_J005_TZ                                                                  

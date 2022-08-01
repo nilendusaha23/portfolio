@@ -1,0 +1,679 @@
+Input file: H:\Desktop\task\4barTask\4barTask\fourbar_task_motion1-solution.minp
+
+Solver running in Simcenter Mode
+
+
+Solver: Simcenter Motion Version 12.0.2 (12.0) May 29 2018 01:03:28 Intel Release 64bit
+Interface: R12.0.2P9_rc2 2018-06-20
+Hostname: PRVMB116-A03
+OS Type: Windows
+Release: 6.2
+Version: Build 9200
+Machine: 8664
+Integer size:    5000000
+Real size:    5000000
+Mcheps: 0.22204460492503E-15
+LMSMOTGGL is active
+
+[1482]
+NOTE:  The system data element specifies inconsistent units:
+  LENGTH.UNIT = MILLIMETER
+  MASS.UNIT   = KILOGRAM
+  FORCE.UNIT  = NEWTON
+Force and mass values are converted to a consistent set of units for
+solution and then converted back to the specified units before being
+reported.
+
+[1296]
+Warning (dynamic data element):  When "INTERPOLATED" is selected for the
+print method, the print frequency feature cannot be used.  PRINT.Freq is
+being reset to zero (disabled) and execution is continuing.
+ The GGL formulation is turned on.
+
+[1276]
+Warning:  In the dynamic data element, the step size is larger
+than the print interval specified in the system data element.  The step
+size is being reset so that it equals the print interval.
+  PRint.interval = 0.63000000000000E-03
+  old MAX.int.step = 1.0000000000000E-02
+  new MAX.int.step = 0.63000000000000E-03
+NOTE:  The Time Series Global Output element will reduce PRint.interval
+       when the Output Rate variable is set to two or more.
+
+License Server is [28000@siemens.kingston.ac.uk]
+
+Features requiring licenses
+-----------------------
+sc_motion_solver "Motion Solver"
+
+
+[1134]
+Warning:  Prior to assembly the number of constraints, drivers and
+initial conditions is not equal to the number of generalized
+coordinates.  The assembly algorithm will be executed but the
+result will represent one of several possible solutions.
+Number of constraints, drivers, I.C's =                   39
+Number of generalized coordinates     =                   36
+
+Results achieved by the model assembly process with drivers:
+
+  Number of function evaluations =     1
+  Maximum constraint violation   =   0.536460E-12
+
+ Element: L001
+    Coordinate    New Value     Original Value  Difference
+    X              8.9230         8.9230         0.0000    
+    Y              11.934         11.934         0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0            0.50000        0.50000         0.0000    
+    E1            0.50000        0.50000         0.0000    
+    E2            0.50000        0.50000         0.0000    
+    E3            0.50000        0.50000         0.0000    
+
+ Element: L002
+    Coordinate    New Value     Original Value  Difference
+    X             -3.5770        -3.5770         0.0000    
+    Y              10.434         10.434         0.0000    
+    Z             -4.3301        -4.3301         0.0000    
+    E0            0.19051        0.19051         0.0000    
+    E1            0.68495        0.68495         0.0000    
+    E2            0.68096        0.68096         0.0000    
+    E3            0.17560        0.17560         0.0000    
+
+ Element: L003
+    Coordinate    New Value     Original Value  Difference
+    X              15.789         15.789         0.0000    
+    Y              8.9337         8.9337         0.0000    
+    Z             -13.326        -13.326         0.0000    
+    E0            0.42818        0.42818         0.0000    
+    E1            0.56273        0.56273         0.0000    
+    E2            0.56273        0.56273         0.0000    
+    E3            0.42818        0.42818         0.0000    
+
+ Element: L004
+    Coordinate    New Value     Original Value  Difference
+    X              28.289         28.289         0.0000    
+    Y              10.434         10.434         0.0000    
+    Z             -8.9964        -8.9964         0.0000    
+    E0            0.16141        0.16141         0.0000    
+    E1            0.68982        0.68982         0.0000    
+    E2            0.68844        0.68844         0.0000    
+    E3            0.15539        0.15539         0.0000    
+
+ Element: the_ground
+    Coordinate    New Value     Original Value  Difference
+    X              0.0000         0.0000         0.0000    
+    Y              0.0000         0.0000         0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle     0.31086E-14    0.31086E-14     0.0000    
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J002
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L003/J002_j"
+
+ Name: J001
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "L002/J001_j"
+
+ Name: J004
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L001/J004_j"
+
+
+The remaining constraints in which the redundant
+constraints are linearly dependent to are summarized as:
+
+Name: J002
+     constraint ( 4) relative rotation about X axis of "L003/J002_j"
+     is linearly dependent to:
+
+     Name: L002
+        Constraint: ( 8) Euler parameter normalization of "L002/L002_cm"  Factor:  -0.5965E-01
+     Name: L004
+        Constraint: ( 8) Euler parameter normalization of "L004/L004_cm"  Factor:   0.2928E-01
+     Name: J002
+        Constraint: ( 5) relative rotation about Y axis of "L003/J002_j"  Factor:  -0.3216    
+     Name: J001
+        Constraint: ( 4) relative rotation about X axis of "L002/J001_j"  Factor:   -1.200    
+     Name: J003
+        Constraint: ( 4) relative rotation about X axis of "L004/J003_j"  Factor:   0.1708    
+     Name: J002
+        Constraint: ( 2) relative translation along Y axis of "Global coordinate system"  Factor:  -0.1923    
+     Name: J003
+        Constraint: ( 2) relative translation along Y axis of "Global coordinate system"  Factor:  -0.1923    
+     Name: J003
+        Constraint: ( 5) relative rotation about Y axis of "L004/J003_j"  Factor:  -0.3407    
+     Name: J001
+        Constraint: ( 2) relative translation along Y axis of "Global coordinate system"  Factor:  -0.1923    
+     Name: J004
+        Constraint: ( 2) relative translation along Y axis of "Global coordinate system"  Factor:  -0.1923    
+
+Name: J001
+     constraint ( 5) relative rotation about Y axis of "L002/J001_j"
+     is linearly dependent to:
+
+     Name: J002
+        Constraint: ( 5) relative rotation about Y axis of "L003/J002_j"  Factor:   -1.000    
+     Name: J003
+        Constraint: ( 5) relative rotation about Y axis of "L004/J003_j"  Factor:  -0.5100    
+     Name: J004
+        Constraint: ( 5) relative rotation about Y axis of "L001/J004_j"  Factor:  -0.5100    
+
+Name: J004
+     constraint ( 4) relative rotation about X axis of "L001/J004_j"
+     is linearly dependent to:
+
+     Name: L002
+        Constraint: ( 8) Euler parameter normalization of "L002/L002_cm"  Factor:   0.1220    
+     Name: L004
+        Constraint: ( 8) Euler parameter normalization of "L004/L004_cm"  Factor:  -0.5988E-01
+     Name: J002
+        Constraint: ( 5) relative rotation about Y axis of "L003/J002_j"  Factor:   0.6575    
+     Name: J001
+        Constraint: ( 4) relative rotation about X axis of "L002/J001_j"  Factor:   0.4089    
+     Name: J003
+        Constraint: ( 4) relative rotation about X axis of "L004/J003_j"  Factor:   -1.349    
+     Name: J002
+        Constraint: ( 2) relative translation along Y axis of "Global coordinate system"  Factor:   0.3932    
+     Name: J003
+        Constraint: ( 2) relative translation along Y axis of "Global coordinate system"  Factor:   0.3932    
+     Name: J003
+        Constraint: ( 5) relative rotation about Y axis of "L004/J003_j"  Factor:   0.6967    
+     Name: J001
+        Constraint: ( 2) relative translation along Y axis of "Global coordinate system"  Factor:   0.3932    
+     Name: J004
+        Constraint: ( 2) relative translation along Y axis of "Global coordinate system"  Factor:   0.3932    
+ Using QR Initial Velocity Method
+
+[1286]
+Warning:  Initial conditions may not be sufficient (DAP2).
+Solution of initial velocities, using QR method:
+
+ Element: L001
+    Coordinate    Velocity
+    X            -0.120562E-11
+    Y             0.181587E-11
+    Z            -0.700106E-12
+    E0           -0.102475E-12
+    E1            0.187629E-13
+    E2            0.711330E-13
+    E3            0.366497E-13
+
+ Element: L002
+    Coordinate    Velocity
+    X             -433.013    
+    Y             0.100820E-10
+    Z             -250.000    
+    E0            -34.0482    
+    E1             8.78004    
+    E2             9.52546    
+    E3            -34.2476    
+
+ Element: L003
+    Coordinate    Velocity
+    X             -853.295    
+    Y             0.166080E-10
+    Z             -453.986    
+    E0            0.767590    
+    E1           -0.584064    
+    E2           -0.584064    
+    E3            0.767590    
+
+ Element: L004
+    Coordinate    Velocity
+    X             -420.283    
+    Y             0.848679E-11
+    Z             -203.986    
+    E0            -16.0809    
+    E1             3.62968    
+    E2             3.77033    
+    E3            -16.1132    
+
+ Element: the_ground
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z            -0.108600E-12
+    E0            0.233961E-13
+    E1            0.265830E-13
+    E2            0.667531E-13
+    E3            0.698592E-13
+
+ Element: MOTION_J001_RZ
+    Coordinate    Velocity
+    Rel.angle     -100.000    
+
+Solution of velocities in local coordinates:
+
+ Element: L001
+    Coordinate    Velocity
+    X            -0.120562E-11
+    Y             0.181587E-11
+    Z            -0.700106E-12
+    OMEGA_XL      0.155721E-12
+    OMEGA_YL      0.191495E-12
+    OMEGA_ZL      0.867547E-13
+
+ Element: L002
+    Coordinate    Velocity
+    X             -433.013    
+    Y             0.100820E-10
+    Z             -250.000    
+    OMEGA_XL       99.9762    
+    OMEGA_YL      0.106108E-02
+    OMEGA_ZL      -2.18237    
+
+ Element: L003
+    Coordinate    Velocity
+    X             -853.295    
+    Y             0.166080E-10
+    Z             -453.986    
+    OMEGA_XL      -2.72811    
+    OMEGA_YL     -0.240918E-12
+    OMEGA_ZL      0.348943E-12
+
+ Element: L004
+    Coordinate    Velocity
+    X             -420.283    
+    Y             0.848679E-11
+    Z             -203.986    
+    OMEGA_XL       46.7152    
+    OMEGA_YL     -0.171198E-09
+    OMEGA_ZL     -0.408170    
+
+ Element: the_ground
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z            -0.108600E-12
+    OMEGA_XL      0.531660E-13
+    OMEGA_YL      0.133506E-12
+    OMEGA_ZL      0.139718E-12
+
+Number of real data in the system     =     62093
+Number of integer data in the system  =     41448
+
+
+[1310]
+Warning:  Number of constraints is greater than or equal to the number
+of generalized coordinates.
+  Number of generalized coordinates =                   36
+  Number of constraints             =                   36
+
+Solution of accelerations in local coordinates:
+
+ Element: L001
+    Coordinate    Acceleration
+    X            -0.153960E-24
+    Y             0.143115E-24
+    Z             0.253692E-24
+    OMEGAD_XL    -0.196790E-26
+    OMEGAD_YL    -0.118234E-25
+    OMEGAD_ZL    -0.201062E-27
+
+ Element: L002
+    Coordinate    Acceleration
+    X             -25000.0    
+    Y            -0.629848E-09
+    Z              43301.3    
+    OMEGAD_XL    -0.121645E-10
+    OMEGAD_YL    -0.233968E-09
+    OMEGAD_ZL     0.130797E-09
+
+ Element: L003
+    Coordinate    Acceleration
+    X             -60118.8    
+    Y            -0.987812E-09
+    Z              50515.8    
+    OMEGAD_XL      2141.62    
+    OMEGAD_YL     0.285354E-10
+    OMEGAD_ZL    -0.121759E-09
+
+ Element: L004
+    Coordinate    Acceleration
+    X             -35118.8    
+    Y            -0.130617E-09
+    Z              7214.52    
+    OMEGAD_XL      2844.29    
+    OMEGAD_YL    -0.104749E-07
+    OMEGAD_ZL     -24.8517    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+Total Number of Bodies             =    5
+
+Total Number of Degrees of Freedom =   31
+Number of Kinematic Constraints    =   31
+Number of Drivers                  =    1
+Number of Initial Conditions       =    0
+Number of Degrees of Freedom       =    0
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J001
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "L002/J001_j"
+
+ Name: J002
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L003/J002_j"
+
+ Name: J003
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L004/J003_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J002
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L003/J002_j"
+
+ Name: J002
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "L003/J002_j"
+
+ Name: J003
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L004/J003_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J002
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L003/J002_j"
+
+ Name: J002
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "L003/J002_j"
+
+ Name: J004
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L001/J004_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J001
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L002/J001_j"
+
+ Name: J002
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L003/J002_j"
+
+ Name: J004
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L001/J004_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J002
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "L003/J002_j"
+
+ Name: J002
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L003/J002_j"
+
+ Name: J004
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L001/J004_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J001
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "L002/J001_j"
+
+ Name: J002
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "L003/J002_j"
+
+ Name: J004
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L001/J004_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J001
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "L002/J001_j"
+
+ Name: J001
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L002/J001_j"
+
+ Name: J004
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L001/J004_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J002
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "L003/J002_j"
+
+ Name: J001
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L002/J001_j"
+
+ Name: J004
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L001/J004_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J001
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "L002/J001_j"
+
+ Name: J002
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L003/J002_j"
+
+ Name: J004
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L001/J004_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J001
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L002/J001_j"
+
+ Name: J002
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "L003/J002_j"
+
+ Name: J004
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L001/J004_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J001
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L002/J001_j"
+
+ Name: J001
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "L002/J001_j"
+
+ Name: J004
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L001/J004_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J002
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "L003/J002_j"
+
+ Name: J002
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L003/J002_j"
+
+ Name: J004
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L001/J004_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J002
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L003/J002_j"
+
+ Name: J001
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "L002/J001_j"
+
+ Name: J004
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L001/J004_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J003
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L004/J003_j"
+
+ Name: J001
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "L002/J001_j"
+
+ Name: J002
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L003/J002_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J001
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "L002/J001_j"
+
+ Name: J001
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L002/J001_j"
+
+ Name: J003
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L004/J003_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J003
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L004/J003_j"
+
+ Name: J002
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L003/J002_j"
+
+ Name: J001
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L002/J001_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J001
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "L002/J001_j"
+
+ Name: J001
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L002/J001_j"
+
+ Name: J003
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L004/J003_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J001
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "L002/J001_j"
+
+ Name: J002
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "L003/J002_j"
+
+ Name: J004
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L001/J004_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J001
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L002/J001_j"
+
+ Name: J001
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "L002/J001_j"
+
+ Name: J004
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L001/J004_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J002
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L003/J002_j"
+
+ Name: J001
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L002/J001_j"
+
+ Name: J004
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L001/J004_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J002
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L003/J002_j"
+
+ Name: J002
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "L003/J002_j"
+
+ Name: J004
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L001/J004_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J001
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L002/J001_j"
+
+ Name: J002
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "L003/J002_j"
+
+ Name: J004
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L001/J004_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J001
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "L002/J001_j"
+
+ Name: J002
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L003/J002_j"
+
+ Name: J003
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "L004/J003_j"
+
+The number of symbolic factorizations of the Acceleration matrix =                    1
+
+[1349]
+  Final statistics (from DOPRI5) :
+  Number of computed steps            =                  107
+  Number of accepted steps            =                  107
+  Number of rejected steps            =                    0
+  Number of acceleration computations =                    1
+  Number of velocity computations     =                  208
+  Number of position computations     =                  107
+
+Userdef was internal
+
+    Total elapsed CPU time:  0.1840000    
+    Total clock time:          0

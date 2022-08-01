@@ -1,0 +1,528 @@
+Input file: H:\Desktop\task\2bar_task\2bar_assembly_motion1-solution_2.minp
+
+Solver running in Simcenter Mode
+
+
+Solver: Simcenter Motion Version 12.0.2 (12.0) May 29 2018 01:03:28 Intel Release 64bit
+Interface: R12.0.2P9_rc2 2018-06-20
+Hostname: PRVMB116-D03
+OS Type: Windows
+Release: 6.2
+Version: Build 9200
+Machine: 8664
+Integer size:    5000000
+Real size:    5000000
+Mcheps: 0.22204460492503E-15
+LMSMOTGGL is active
+
+[1482]
+NOTE:  The system data element specifies inconsistent units:
+  LENGTH.UNIT = MILLIMETER
+  MASS.UNIT   = KILOGRAM
+  FORCE.UNIT  = NEWTON
+Force and mass values are converted to a consistent set of units for
+solution and then converted back to the specified units before being
+reported.
+
+[1296]
+Warning (dynamic data element):  When "INTERPOLATED" is selected for the
+print method, the print frequency feature cannot be used.  PRINT.Freq is
+being reset to zero (disabled) and execution is continuing.
+ The GGL formulation is turned on.
+
+[1276]
+Warning:  In the dynamic data element, the step size is larger
+than the print interval specified in the system data element.  The step
+size is being reset so that it equals the print interval.
+  PRint.interval = 0.42440000000000E-02
+  old MAX.int.step = 1.0000000000000E-02
+  new MAX.int.step = 0.42440000000000E-02
+NOTE:  The Time Series Global Output element will reduce PRint.interval
+       when the Output Rate variable is set to two or more.
+
+License Server is [28000@siemens.kingston.ac.uk]
+
+Features requiring licenses
+-----------------------
+sc_motion_solver "Motion Solver"
+
+
+[1134]
+Warning:  Prior to assembly the number of constraints, drivers and
+initial conditions is not equal to the number of generalized
+coordinates.  The assembly algorithm will be executed but the
+result will represent one of several possible solutions.
+Number of constraints, drivers, I.C's =                   38
+Number of generalized coordinates     =                   35
+
+Results achieved by the model assembly process with drivers:
+
+  Number of function evaluations =     1
+  Maximum constraint violation   =   0.108074E-10
+
+ Element: 2BAR_ACTUATOR
+    Coordinate    New Value     Original Value  Difference
+    X              282.97         282.97         0.0000    
+    Y             -24.452        -24.452         0.0000    
+    Z             0.82070        0.82070         0.0000    
+    E0            0.39767        0.39767         0.0000    
+    E1            0.57745        0.57745         0.0000    
+    E2            0.58469        0.58469         0.0000    
+    E3            0.40811        0.40811         0.0000    
+
+ Element: 2BAR_BASE
+    Coordinate    New Value     Original Value  Difference
+    X              0.0000         0.0000         0.0000    
+    Y             -10.000        -10.000         0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0            0.70711        0.70711         0.0000    
+    E1            0.70711        0.70711         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: 2BAR_LINK_AB
+    Coordinate    New Value     Original Value  Difference
+    X              264.88         264.88         0.0000    
+    Y             -15.000        -15.000         0.0000    
+    Z             -99.187        -99.187         0.0000    
+    E0            0.12600        0.12600         0.0000    
+    E1           -0.69579       -0.69579         0.0000    
+    E2           -0.69579       -0.69579         0.0000    
+    E3            0.12600        0.12600         0.0000    
+
+ Element: 2BAR_LINK_OA
+    Coordinate    New Value     Original Value  Difference
+    X              117.30         117.30         0.0000    
+    Y             -5.1042        -5.1042         0.0000    
+    Z             -98.427        -98.427         0.0000    
+    E0            0.29935        0.29935         0.0000    
+    E1            0.64109        0.64109         0.0000    
+    E2            0.64062        0.64062         0.0000    
+    E3            0.29833        0.29833         0.0000    
+
+ Element: the_ground
+    Coordinate    New Value     Original Value  Difference
+    X              0.0000         0.0000         0.0000    
+    Y              0.0000         0.0000         0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J001
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "2BAR_BASE/J001_j"
+
+ Name: J001
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "2BAR_BASE/J001_j"
+
+ Name: J005
+    Type:  Translational joint            ( 4) relative rotation about X axis of "the_ground/J005_j"
+
+
+The remaining constraints in which the redundant
+constraints are linearly dependent to are summarized as:
+
+Name: J001
+     constraint ( 5) relative rotation about Y axis of "2BAR_BASE/J001_j"
+     is linearly dependent to:
+
+     Name: 2BAR_BASE
+        Constraint: ( 8) Euler parameter normalization of "2BAR_BASE/2BAR_BASE_cm"  Factor:   0.3578E-01
+     Name: J004
+        Constraint: ( 4) relative rotation about X axis of "the_ground/J004_j"  Factor:   -1.000    
+     Name: J004
+        Constraint: ( 2) relative translation along Y axis of "the_ground/J004_j"  Factor:   0.3578E-01
+     Name: J003
+        Constraint: ( 5) relative rotation about Y axis of "2BAR_LINK_AB/J003_j"  Factor:  -0.2795    
+     Name: J003
+        Constraint: ( 4) relative rotation about X axis of "2BAR_LINK_AB/J003_j"  Factor:   0.2477    
+     Name: J002
+        Constraint: ( 4) relative rotation about X axis of "2BAR_LINK_AB/J002_j"  Factor:   0.8298E-01
+     Name: J002
+        Constraint: ( 2) relative translation along Y axis of "Global coordinate system"  Factor:  -0.3578E-01
+     Name: J001
+        Constraint: ( 2) relative translation along Y axis of "Global coordinate system"  Factor:   0.3578E-01
+     Name: J002
+        Constraint: ( 5) relative rotation about Y axis of "2BAR_LINK_AB/J002_j"  Factor:   0.3072E-01
+     Name: J003
+        Constraint: ( 2) relative translation along Y axis of "Global coordinate system"  Factor:   0.3578E-01
+     Name: J005
+        Constraint: ( 2) relative translation along Y axis of "the_ground/J005_j"  Factor:  -0.3578E-01
+     Name: J005
+        Constraint: ( 6) relative rotation about Z axis of "the_ground/J005_j"  Factor:  -0.3862    
+
+Name: J001
+     constraint ( 4) relative rotation about X axis of "2BAR_BASE/J001_j"
+     is linearly dependent to:
+
+     Name: 2BAR_BASE
+        Constraint: ( 8) Euler parameter normalization of "2BAR_BASE/2BAR_BASE_cm"  Factor:   0.3578E-01
+     Name: J004
+        Constraint: ( 2) relative translation along Y axis of "the_ground/J004_j"  Factor:   0.3578E-01
+     Name: J004
+        Constraint: ( 6) relative rotation about Z axis of "the_ground/J004_j"  Factor:   -1.000    
+     Name: J003
+        Constraint: ( 4) relative rotation about X axis of "2BAR_LINK_AB/J003_j"  Factor:   0.1691E-01
+     Name: J002
+        Constraint: ( 4) relative rotation about X axis of "2BAR_LINK_AB/J002_j"  Factor:  -0.1793E-01
+     Name: J002
+        Constraint: ( 2) relative translation along Y axis of "Global coordinate system"  Factor:  -0.3578E-01
+     Name: J001
+        Constraint: ( 2) relative translation along Y axis of "Global coordinate system"  Factor:   0.3578E-01
+     Name: J002
+        Constraint: ( 5) relative rotation about Y axis of "2BAR_LINK_AB/J002_j"  Factor:  -0.6838E-01
+     Name: J003
+        Constraint: ( 2) relative translation along Y axis of "Global coordinate system"  Factor:   0.3578E-01
+     Name: J005
+        Constraint: ( 2) relative translation along Y axis of "the_ground/J005_j"  Factor:  -0.3578E-01
+     Name: J005
+        Constraint: ( 6) relative rotation about Z axis of "the_ground/J005_j"  Factor:   0.3578E-01
+
+Name: J005
+     constraint ( 4) relative rotation about X axis of "the_ground/J005_j"
+     is linearly dependent to:
+
+     Name: 2BAR_BASE
+        Constraint: ( 8) Euler parameter normalization of "2BAR_BASE/2BAR_BASE_cm"  Factor:   0.1470    
+     Name: 2BAR_LINK_AB
+        Constraint: ( 8) Euler parameter normalization of "2BAR_LINK_AB/2BAR_LINK_AB_cm"  Factor:  -0.1484E-01
+     Name: 2BAR_ACTUATOR
+        Constraint: ( 8) Euler parameter normalization of "2BAR_ACTUATOR/2BAR_ACTUATOR_cm"  Factor:  -0.1675E-01
+     Name: J004
+        Constraint: ( 2) relative translation along Y axis of "the_ground/J004_j"  Factor:   0.1470    
+     Name: J003
+        Constraint: ( 5) relative rotation about Y axis of "2BAR_LINK_AB/J003_j"  Factor:   0.2322E-01
+     Name: J003
+        Constraint: ( 4) relative rotation about X axis of "2BAR_LINK_AB/J003_j"  Factor:    1.018    
+     Name: J002
+        Constraint: ( 4) relative rotation about X axis of "2BAR_LINK_AB/J002_j"  Factor:   0.3410    
+     Name: J002
+        Constraint: ( 2) relative translation along Y axis of "Global coordinate system"  Factor:  -0.1470    
+     Name: J001
+        Constraint: ( 2) relative translation along Y axis of "Global coordinate system"  Factor:   0.1470    
+     Name: J002
+        Constraint: ( 5) relative rotation about Y axis of "2BAR_LINK_AB/J002_j"  Factor:  -0.2810    
+     Name: J003
+        Constraint: ( 2) relative translation along Y axis of "Global coordinate system"  Factor:   0.1470    
+     Name: J005
+        Constraint: ( 2) relative translation along Y axis of "the_ground/J005_j"  Factor:  -0.1470    
+     Name: J005
+        Constraint: ( 6) relative rotation about Z axis of "the_ground/J005_j"  Factor:  -0.7198    
+ Using QR Initial Velocity Method
+
+[1286]
+Warning:  Initial conditions may not be sufficient (DAP2).
+Solution of initial velocities, using QR method:
+
+ Element: 2BAR_ACTUATOR
+    Coordinate    Velocity
+    X             -1414.21    
+    Y             0.429405E-11
+    Z              1414.21    
+    E0           -0.199890E-12
+    E1            0.213488E-12
+    E2           -0.723399E-13
+    E3           -0.445647E-13
+
+ Element: 2BAR_BASE
+    Coordinate    Velocity
+    X            -0.291399E-12
+    Y             0.455092E-11
+    Z            -0.450240E-11
+    E0           -0.157060E-12
+    E1            0.175282E-12
+    E2            0.155645E-12
+    E3           -0.172680E-12
+
+ Element: 2BAR_LINK_AB
+    Coordinate    Velocity
+    X             -424.689    
+    Y             0.286939E-10
+    Z              1043.68    
+    E0            -3.67594    
+    E1           -0.665672    
+    E2           -0.665672    
+    E3            -3.67594    
+
+ Element: 2BAR_LINK_OA
+    Coordinate    Velocity
+    X              288.302    
+    Y             0.300785E-10
+    Z              343.585    
+    E0            0.938215    
+    E1           -0.436912    
+    E2           -0.438407    
+    E3            0.938912    
+
+ Element: the_ground
+    Coordinate    Velocity
+    X            -0.648713E-13
+    Y            -0.793926E-13
+    Z             0.167903E-12
+    E0           -0.228473E-12
+    E1            0.234906E-12
+    E2            0.235758E-12
+    E3             0.00000    
+
+Solution of velocities in local coordinates:
+
+ Element: 2BAR_ACTUATOR
+    Coordinate    Velocity
+    X             -1414.21    
+    Y             0.429405E-11
+    Z              1414.21    
+    OMEGA_XL      0.393715E-12
+    OMEGA_YL     -0.495072E-13
+    OMEGA_ZL      0.460903E-12
+
+ Element: 2BAR_BASE
+    Coordinate    Velocity
+    X            -0.291399E-12
+    Y             0.455092E-11
+    Z            -0.450240E-11
+    OMEGA_XL      0.470001E-12
+    OMEGA_YL     -0.240908E-13
+    OMEGA_ZL     -0.464321E-12
+
+ Element: 2BAR_LINK_AB
+    Coordinate    Velocity
+    X             -424.689    
+    Y             0.286939E-10
+    Z              1043.68    
+    OMEGA_XL      -10.5662    
+    OMEGA_YL      0.390799E-13
+    OMEGA_ZL     -0.124367E-11
+
+ Element: 2BAR_LINK_OA
+    Coordinate    Velocity
+    X              288.302    
+    Y             0.300785E-10
+    Z              343.585    
+    OMEGA_XL      -2.92909    
+    OMEGA_YL      0.254796E-11
+    OMEGA_ZL      0.466660E-02
+
+ Element: the_ground
+    Coordinate    Velocity
+    X            -0.648713E-13
+    Y            -0.793926E-13
+    Z             0.167903E-12
+    OMEGA_XL      0.469813E-12
+    OMEGA_YL      0.471516E-12
+    OMEGA_ZL       0.00000    
+
+Number of real data in the system     =     62152
+Number of integer data in the system  =     41419
+
+
+[1310]
+Warning:  Number of constraints is greater than or equal to the number
+of generalized coordinates.
+  Number of generalized coordinates =                   35
+  Number of constraints             =                   35
+
+Solution of accelerations in local coordinates:
+
+ Element: 2BAR_ACTUATOR
+    Coordinate    Acceleration
+    X             0.411387E-10
+    Y            -0.132848E-08
+    Z             0.262616E-08
+    OMEGAD_XL    -0.138460E-14
+    OMEGAD_YL     0.169341E-12
+    OMEGAD_ZL     0.770579E-13
+
+ Element: 2BAR_BASE
+    Coordinate    Acceleration
+    X            -0.239602E-23
+    Y            -0.102254E-23
+    Z             0.244303E-23
+    OMEGAD_XL     0.215767E-24
+    OMEGAD_YL    -0.248657E-25
+    OMEGAD_ZL    -0.232532E-24
+
+ Element: 2BAR_LINK_AB
+    Coordinate    Acceleration
+    X              6333.43    
+    Y            -0.132177E-08
+    Z              9550.01    
+    OMEGAD_XL     -25.8226    
+    OMEGAD_YL    -0.126477E-11
+    OMEGAD_ZL     0.208766E-11
+
+ Element: 2BAR_LINK_OA
+    Coordinate    Acceleration
+    X              6465.39    
+    Y            -0.671583E-09
+    Z              9748.98    
+    OMEGAD_XL     -75.9118    
+    OMEGAD_YL     0.582006E-10
+    OMEGAD_ZL     0.120942    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+Total Number of Bodies             =    5
+
+Total Number of Degrees of Freedom =   30
+Number of Kinematic Constraints    =   30
+Number of Drivers                  =    1
+Number of Initial Conditions       =    0
+Number of Degrees of Freedom       =    0
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J001
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "2BAR_BASE/J001_j"
+
+ Name: J001
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "2BAR_BASE/J001_j"
+
+ Name: J005
+    Type:  Translational joint            ( 6) relative rotation about Z axis of "the_ground/J005_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J003
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "2BAR_LINK_AB/J003_j"
+
+ Name: J001
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "2BAR_BASE/J001_j"
+
+ Name: J001
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "2BAR_BASE/J001_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J001
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "2BAR_BASE/J001_j"
+
+ Name: J001
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "2BAR_BASE/J001_j"
+
+ Name: J005
+    Type:  Translational joint            ( 6) relative rotation about Z axis of "the_ground/J005_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J001
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "2BAR_BASE/J001_j"
+
+ Name: J003
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "2BAR_LINK_AB/J003_j"
+
+ Name: J001
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "2BAR_BASE/J001_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J001
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "2BAR_BASE/J001_j"
+
+ Name: J001
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "2BAR_BASE/J001_j"
+
+ Name: J005
+    Type:  Translational joint            ( 6) relative rotation about Z axis of "the_ground/J005_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J001
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "2BAR_BASE/J001_j"
+
+ Name: J003
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "2BAR_LINK_AB/J003_j"
+
+ Name: J001
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "2BAR_BASE/J001_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J001
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "2BAR_BASE/J001_j"
+
+ Name: J001
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "2BAR_BASE/J001_j"
+
+ Name: J005
+    Type:  Translational joint            ( 6) relative rotation about Z axis of "the_ground/J005_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J001
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "2BAR_BASE/J001_j"
+
+ Name: J003
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "2BAR_LINK_AB/J003_j"
+
+ Name: J001
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "2BAR_BASE/J001_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J001
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "2BAR_BASE/J001_j"
+
+ Name: J001
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "2BAR_BASE/J001_j"
+
+ Name: J005
+    Type:  Translational joint            ( 6) relative rotation about Z axis of "the_ground/J005_j"
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J001
+    Type:  Revolute joint                 ( 5) relative rotation about Y axis of "2BAR_BASE/J001_j"
+
+ Name: J001
+    Type:  Revolute joint                 ( 4) relative rotation about X axis of "2BAR_BASE/J001_j"
+
+ Name: J005
+    Type:  Translational joint            ( 4) relative rotation about X axis of "the_ground/J005_j"
+
+The number of symbolic factorizations of the Acceleration matrix =                    1
+
+[1349]
+  Final statistics (from DOPRI5) :
+  Number of computed steps            =                   57
+  Number of accepted steps            =                   57
+  Number of rejected steps            =                    0
+  Number of acceleration computations =                    1
+  Number of velocity computations     =                  108
+  Number of position computations     =                   57
+
+Userdef was internal
+
+    Total elapsed CPU time:  0.1040000    
+    Total clock time:          1
