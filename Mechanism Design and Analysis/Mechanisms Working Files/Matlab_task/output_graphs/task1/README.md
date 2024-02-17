@@ -1,0 +1,2 @@
+# Output Graphs for the 2-bar task
+![Variation in Omega using element by element method](https://github.com/nilendusaha23/portfolio/blob/main/Mechanism%20Design%20and%20Analysis/Mechanisms%20Working%20Files/Matlab_task/output_graphs/task1/Variation_in_omega_Element.jpg?raw=true)
